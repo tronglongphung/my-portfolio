@@ -87,21 +87,38 @@ section {
   box-sizing: border-box;
 }
 
-#about-me h1 {
+section h1 {
   color: black;
+  opacity: 0.9;
 }
 
-/* #about-me {
+/* #work {
+    background-image: url("../images/bgdimg.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  } */
+
+#contact {
   background-image: url("../images/backgroundimg.jpg");
   height: 100%;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-} */
-#work {
-  background-image: url("../images/bgdimg.jpg");
+}
+
+.contactDetails {
+  position: relative;
   height: 100%;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+  width: 100%;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-family: "Syncopate", sans-serif;
+  font-size: 1.5vw;
+  letter-spacing: 0.7vw;
+  text-transform: uppercase;
 }
