@@ -49,7 +49,7 @@ a {
 
 .header {
   position: relative;
-  height: 100vh;
+  height: 100%;
   width: 100%;
   text-align: center;
   display: flex;
@@ -57,15 +57,51 @@ a {
   justify-content: center;
 }
 
-.header a {
+h1 {
   font-family: "Syncopate", sans-serif;
   color: #fff;
-  text-transform: uppercase;
-  letter-spacing: -0.1vw;
   line-height: 1.2;
-  font-size: 7vw;
-  text-align: center;
-  opacity: 0.7;
   display: block;
-  font-weight: bold;
+  opacity: 0.7;
+}
+
+.header h1 {
+  letter-spacing: -0.1vw;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 5.5vw;
+}
+
+.header span {
+  display: block;
+  font-size: 1.5vw;
+  letter-spacing: 0vw;
+}
+
+section {
+  display: block;
+  height: 100%;
+  width: 100%;
+  padding: 60px;
+  padding-left: 100px;
+  box-sizing: border-box;
+}
+
+#about-me h1 {
+  color: black;
+}
+
+/* #about-me {
+  background-image: url("../images/backgroundimg.jpg");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+} */
+#work {
+  background-image: url("../images/bgdimg.jpg");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }

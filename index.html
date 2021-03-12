@@ -6,11 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="shortcut icon" type="image/png" href="assets/images/favicon.png"/>
+    <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
     <title>Tom's Portfolio</title>
 </head>
 
 <body>
-    <nav>
+    <nav id="topNav">
             <ul>
                 <li>
                     <a href="#about-me">About Me</a>
@@ -29,10 +30,30 @@
     </video>
     
     <header class="header">
-        <a href="#home">
+        <h1>
             Tom Phung
-        </a>
+            <span>Student / Student / Student</span>
+        </h1>
     </header>
 
+<section id="about-me" >
+<h1 >About Me</h1>
+</section>
+
+<section id="work" >
+    <h1 >Work</h1>
+    </section>
+
+<section id="contact" >
+    <h1 >Contact</h1>
+    </section>
+
+
+
+    
+    <script>
+    var scroll = new SmoothScroll('a[href*="#"]',{speed: 1000, speedAsDuration: true});
+    </script>
 </body>
+
 </html>
