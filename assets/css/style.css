@@ -21,8 +21,8 @@ body {
 
 nav {
   padding: 16px;
-  font-family: "Indie Flower", cursive;
-  background-color: #a4c4b5;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  /* background-color: #a4c4b5; */
   color: #ffffff;
   position: relative;
 }
@@ -36,7 +36,7 @@ ul {
   padding-top: 15px;
   margin-right: 20px;
   float: right;
-  font-family: "Indie Flower", cursive;
+  font-family: 'Syncopate', sans-serif;
   font-size: 20px;
   list-style-type: none;
 }
