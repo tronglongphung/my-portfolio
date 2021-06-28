@@ -7,12 +7,15 @@
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="shortcut icon" type="image/png" href="assets/images/favicon.png"/>
     <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet"> 
     <title>Tom's Portfolio</title>
 </head>
 
 <body>
-    <nav id="topNav">
+    
+  <nav id="topNav" class="flex">
             <ul>
+                
                 <li>
                     <a href="#about-me">About Me</a>
                 </li>
@@ -32,61 +35,58 @@
     <header class="header">
         <h1>
             Tom Phung
-            <span>Student / Student / Student</span>
         </h1>
     </header>
 
-<section id="about-me" >
-<h1>About Me</h1>
-<img src="assets/images/profile image.jpg" alt="work1" style="width:200px">
-<p>Name: Tom</p>
-<br>
-<p>Age: 21</p>
-<br>
-<p>Currently an undergraduate at UniSA</p>
+<section id="about-me">
+    <h1>About Me</h1>
+    <img src="assets/images/profile image.jpg" alt="work1" style="width:160px">
+      <p>Name: Tom</p>
+      <p>Age: 21</p>
+      <p>Currently an undergraduate at UniSA</p>
 </section>
 
 <section id="work" >
-    <h1>Work</h1>
-    <div class="row">
-        <div class="column">
+    <h1>Projects</h1>
+    <div class="grid grid-cols-2 place-items-stretch grid-flow-row gap-3">
+        <div class="">
           <div class="content">
-            <img src="https://dummyimage.com/400/000/fff.png" alt="work1" style="width:70%">
-            <h3>My Work 1</h3>
-            <p>I have done..</p>
+            <img src="./assets/images/calorie-counter.png" alt="calorie counter app" style="width:400px">
+            <h3><a href="https://tronglongphung.github.io/calorie-burner/" target="_blank" rel="noopener noreferrer" class="font-medium">Calorie Burner</a></h3><br>
+            <p class= "text-sm">This app uses food APIs to track down the calories of your food</p>
           </div>
         </div>
-        <div class="column">
+        <div class="">
           <div class="content">
-            <img src="https://dummyimage.com/400/000/fff.png" alt="work2" style="width:70%">
-            <h3>My Work 2</h3>
-            <p>I have done..</p>
+            <img src="./assets/images/sports-scheduler.png" alt="sports scheduler app" style="width:400px">
+            <h3><a href="https://ricjm008-sports-schedule-app.herokuapp.com/" target="_blank" rel="noopener noreferrer" class="font-medium">Sports Scheduler</a></h3><br>
+            <p class= "text-sm">This app keeps track of sports games </p>
           </div>
         </div>
-        <div class="column">
+        <div class="">
           <div class="content">
             <img src="https://dummyimage.com/400/000/fff.png" alt="work3" style="width:70%">
             <h3>My Work 3</h3>
             <p>I have done..</p>
           </div>
         </div>
-        <div class="column">
+        <div class="">
           <div class="content">
             <img src="https://dummyimage.com/400/000/fff.png" alt="work4" style="width:70%">
             <h3>My Work 4</h3>
             <p>I have done..</p>
           </div>
         </div>
-      </div>
-      
-    </section>
+      </div>      
+</section>
 
-<section id="contact" >
-    <h1 >Contact</h1>
-    <p class="contactDetails">tronglongphung@gmail.com</p><
-    </section>
-
-
+<section  id="contact" >
+  <h1>Contact</h1>
+  <div class="grid grid-rows-2 place-items-center">
+    <p class="contactDetails">Email: tronglongphung@gmail.com</p>
+    <a class="contactDetails" href="https://github.com/tronglongphung">GitHub</a>
+  </div>
+</section>
 
 
     <script>

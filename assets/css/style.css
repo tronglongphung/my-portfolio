@@ -1,12 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+
 * {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
+  color: black;
 }
 
 html,
 body {
   height: 100%;
+}
+
+a:hover {
+  color: rgb(253, 10, 10);
 }
 
 #video {
@@ -21,20 +28,18 @@ body {
 
 nav {
   padding: 16px;
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
-  /* background-color: #a4c4b5; */
-  color: #ffffff;
+  font-family: "Poppins", sans-serif; /* background-color: #a4c4b5; */
+  color: black;
   position: relative;
+
+  padding-top: 15px;
+  margin-right: 20px;
+  font-family: "Poppins", sans-serif; /* background-color: #a4c4b5; */
+  font-size: 20px;
 }
 
 ul {
-  padding-top: 15px;
-  margin-right: 20px;
   float: right;
-  font-family: "Syncopate", sans-serif;
-  font-size: 20px;
-  list-style-type: none;
 }
 
 li {
@@ -48,6 +53,7 @@ a {
 }
 
 .header {
+  top: -10px;
   position: relative;
   height: 100%;
   width: 100%;
@@ -58,8 +64,8 @@ a {
 }
 
 h1 {
-  font-family: "Syncopate", sans-serif;
-  color: #fff;
+  font-family: "Poppins", sans-serif; /* background-color: #a4c4b5; */
+  /* color: #fff; */
   line-height: 1.2;
   display: block;
   opacity: 0.7;
@@ -102,9 +108,9 @@ section {
 }
 
 #about-me p {
-  padding: 40px 0;
-  font-family: "Syncopate", sans-serif;
-  color: #fff;
+  padding: 30px 0;
+  font-family: "Poppins", sans-serif; /* background-color: #a4c4b5; */
+  font-weight: 300;
   display: flex;
   flex-direction: column;
   text-align: center;
@@ -118,50 +124,42 @@ section {
   display: flex;
   flex-direction: column;
   text-align: center;
-  align-items: center;
+
   justify-content: center;
 }
 
 #work {
   background-color: rgb(152, 181, 189);
   height: 100%;
+  font-family: "Poppins", sans-serif; /* background-color: #a4c4b5; */
+  font-weight: 300;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   text-align: center;
   display: flex;
-  align-items: center;
   justify-content: center;
 }
 
 #contact {
   background-image: url("../images/backgroundimg.jpg");
   height: 100%;
+  font-family: "Poppins", sans-serif; /* background-color: #a4c4b5; */
+  font-weight: 300;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  text-align: center;
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 
 .contactDetails {
   position: relative;
-  height: 100%;
-  width: 100%;
-  text-align: center;
-  display: flex;
-  align-items: center;
-  justify-content: center;
   color: white;
-  font-family: "Syncopate", sans-serif;
   font-size: 1.5vw;
   letter-spacing: 0.7vw;
   text-transform: uppercase;
 }
 
-.row {
+/* .row {
   margin: 2%;
 }
 
@@ -173,13 +171,13 @@ section {
 .column {
   float: left;
   width: 25%;
-}
+} */
 
 .content {
   background-color: white;
   padding: 20px;
   border-radius: 4%;
-  font-family: "Syncopate", sans-serif;
+  font-family: "Poppins", sans-serif; /* background-color: #a4c4b5; */
   flex-basis: 100%;
 }
 
