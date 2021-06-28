@@ -13,30 +13,24 @@
 
 <body>
     
-  <nav id="topNav" class="flex">
-            <ul>
-                
-                <li>
-                    <a href="#about-me">About Me</a>
-                </li>
-                <li>
-                    <a href="#work">Work</a>
-                </li>
-                <li>
-                    <a href="#contact">Contact</a>
-                </li>
-            </ul>
-    </nav>
+  <nav id="topNav" ">
+            <a href="#topNav">Tom</a>
+        <div class="topNavRight ">
+            <a href="#about-me">About Me</a>
+            <a href="#work">Work</a>
+            <a href="#contact">Contact</a>
+        </div>
+  </nav>
 
-    <video autoplay muted loop id="video">
-        <source src="assets/images/background video.mp4" type="video/mp4" alt="background-video">
-    </video>
-    
-    <header class="header">
-        <h1>
-            Tom Phung
-        </h1>
-    </header>
+  <video autoplay muted loop id="video">
+      <source src="assets/images/background video.mp4" type="video/mp4" alt="background-video">
+  </video>
+  
+  <header class="header">
+      <h1>
+          Tom Phung
+      </h1>
+  </header>
 
 <section id="about-me">
     <h1>About Me</h1>
@@ -48,41 +42,34 @@
 
 <section id="work" >
     <h1>Projects</h1>
-    <div class="grid grid-cols-2 place-items-stretch grid-flow-row gap-3">
-        <div class="">
+    <div class="grid grid-cols-2 place-items-stretch justify-items-stretch grid-flow-row gap-3">
           <div class="content">
-            <img src="./assets/images/calorie-counter.png" alt="calorie counter app" style="width:400px">
+            <img src="./assets/images/calorie-counter.png" alt="calorie counter app" style="width:400px" class="rounded">
             <h3><a href="https://tronglongphung.github.io/calorie-burner/" target="_blank" rel="noopener noreferrer" class="font-medium">Calorie Burner</a></h3><br>
             <p class= "text-sm">This app uses food APIs to track down the calories of your food</p>
           </div>
-        </div>
-        <div class="">
           <div class="content">
-            <img src="./assets/images/sports-scheduler.png" alt="sports scheduler app" style="width:400px">
+            <img src="./assets/images/sports-scheduler.png" alt="sports scheduler app" style="width:400px" class="rounded">
             <h3><a href="https://ricjm008-sports-schedule-app.herokuapp.com/" target="_blank" rel="noopener noreferrer" class="font-medium">Sports Scheduler</a></h3><br>
             <p class= "text-sm">This app keeps track of sports games </p>
           </div>
-        </div>
-        <div class="">
           <div class="content">
-            <img src="https://dummyimage.com/400/000/fff.png" alt="work3" style="width:70%">
+            <img src="https://dummyimage.com/200/000/fff.png" alt="work3" style="width:200px" class="rounded">
             <h3>My Work 3</h3>
             <p>I have done..</p>
           </div>
-        </div>
-        <div class="">
           <div class="content">
-            <img src="https://dummyimage.com/400/000/fff.png" alt="work4" style="width:70%">
+            <img src="https://dummyimage.com/200/000/fff.png" alt="work4" style="width:200px" class="rounded">
             <h3>My Work 4</h3>
             <p>I have done..</p>
           </div>
-        </div>
+        
       </div>      
 </section>
 
 <section  id="contact" >
   <h1>Contact</h1>
-  <div class="grid grid-rows-2 place-items-center">
+  <div class="grid grid-rows-2 place-items-center justify-center pt-20">
     <p class="contactDetails">Email: tronglongphung@gmail.com</p>
     <a class="contactDetails" href="https://github.com/tronglongphung">GitHub</a>
   </div>
